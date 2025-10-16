@@ -38,3 +38,6 @@ conda activate gaussian_splatting
 pip install ./submodules/diff-gaussian-rasterization
 pip install ./submodules/simple-knn
 pip install ./submodules/fused-ssim
+```
+
+if using vscode to run the code you should open the model_gaussian_splatting in a new window and use f5 with the launch file
