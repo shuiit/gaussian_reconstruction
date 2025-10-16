@@ -11,7 +11,7 @@ Clone this repository **with submodules** to make sure the `model_gaussian_splat
 ```bash
 git clone --recurse-submodules https://github.com/shuiit/gaussian_reconstruction.git
 cd gaussian_reconstruction
-
+```
 
 Make sure all the submodules are inside the submodules directory under model_gaussian_splatting.
 If anything is missing, you can sync and reinitialize them with:
@@ -19,7 +19,7 @@ If anything is missing, you can sync and reinitialize them with:
 ```bash
 git submodule update --init --recursive
 git submodule sync --recursive
-
+```
 To use Gaussian Splatting, you can install and run it through Nerfstudio
 .
 Nerfstudio provides an easier setup and a consistent environment for working with Gaussian Splatting.
