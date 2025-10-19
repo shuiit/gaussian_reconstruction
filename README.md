@@ -13,7 +13,7 @@ git clone --recurse-submodules https://github.com/shuiit/gaussian_reconstruction
 cd gaussian_reconstruction
 ```
 
-Make sure all the submodules are inside the submodules directory under model_gaussian_splatting.
+Make sure all the submodules are inside the submodules directory (and are not empty) under model_gaussian_splatting (diff-gaussian-rasterization,fused-ssim,simple-knn).
 If anything is missing, you can sync and reinitialize them with:
 
 ```bash
